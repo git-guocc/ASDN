@@ -1,0 +1,14 @@
+# ninja log v5
+1	22002	1725704582552658029	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/interpolation/interpolation_cuda.o	8942696648acfaaa
+1	22014	1725704582552658029	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/knnquery/knnquery_cuda.o	48e67603c37d4e7
+0	22717	1725704583264648703	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/aggregation/aggregation_cuda.o	987a798823ae3700
+1	22912	1725704583456646189	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/subtraction/subtraction_cuda.o	c80a3d9c77b88079
+0	23096	1725704583644643727	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/grouping/grouping_cuda.o	5c2f3933a565816b
+1	23273	1725704583820641421	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/sampling/sampling_cuda.o	3dbc66c22e7f23e3
+1	28739	1725704589276569979	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/sampling/sampling_cuda_kernel.o	cd9c4af5d0fcb4f5
+1	29998	1725704590540553431	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/grouping/grouping_cuda_kernel.o	cdce0965fda21b0c
+0	30924	1725704591464541335	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/knnquery/knnquery_cuda_kernel.o	e6d66d457f5dba49
+1	31574	1725704592116532800	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/interpolation/interpolation_cuda_kernel.o	5eb250f56b72c936
+1	32019	1725704592564526936	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/subtraction/subtraction_cuda_kernel.o	417d15059b0e2e32
+1	33090	1725704593632512957	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/pointops_api.o	83bc21345e93aa0f
+0	33489	1725704594036507669	/home/guocc/GitHub/workshop/Denoise/AAAI25/lib/pointops/build/temp.linux-x86_64-cpython-312/src/aggregation/aggregation_cuda_kernel.o	bf8db20658669d98

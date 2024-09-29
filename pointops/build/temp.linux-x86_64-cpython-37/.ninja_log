@@ -1,0 +1,14 @@
+# ninja log v5
+1	6875	1694052208621440916	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/subtraction/subtraction_cuda.o	f2d05245e60c4691
+0	7300	1694052209045435080	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/interpolation/interpolation_cuda.o	5538343cba801dd6
+0	7492	1694052209237432440	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/knnquery/knnquery_cuda.o	41a9ff2ff8826fe6
+0	8061	1694052209805424627	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/aggregation/aggregation_cuda.o	e7fd66ed0b036e29
+0	8361	1694052210109420446	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/grouping/grouping_cuda.o	12375167738257d2
+0	8458	1694052210205419127	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/sampling/sampling_cuda.o	3bf840fecf829259
+0	17020	1694052218765301881	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/pointops_api.o	a4d095c8905ab7b8
+1	18407	1694052220153282948	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/subtraction/subtraction_cuda_kernel.o	1b07e5ee9920f32d
+0	18874	1694052220625276516	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/knnquery/knnquery_cuda_kernel.o	1b56470d5bb92936
+0	19712	1694052221461265127	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/interpolation/interpolation_cuda_kernel.o	45c3dd969be48622
+0	19756	1694052221509264473	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/aggregation/aggregation_cuda_kernel.o	ef0e011aa56cfbb2
+1	19828	1694052221577263548	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/sampling/sampling_cuda_kernel.o	f4f1077b4f7b2acd
+0	20163	1694052221913258973	/home/zz/_code/IterativePFN-main/lib/pointops/build/temp.linux-x86_64-cpython-37/src/grouping/grouping_cuda_kernel.o	f8cb1f690fa10b2d

@@ -1,0 +1,14 @@
+# ninja log v5
+1	7258	1702109527996475195	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda.o	d4a86be4320567b6
+1	7566	1702109528304473942	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/knnquery/knnquery_cuda.o	74be2036265044dc
+1	8195	1702109528932471387	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/subtraction/subtraction_cuda.o	899a001e736c8cf6
+0	8342	1702109529080470785	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/aggregation/aggregation_cuda.o	ff405669635b1cfa
+1	8347	1702109529084470769	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda.o	2f977221c94c9517
+0	8367	1702109529108470672	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda.o	255a5308953c354
+1	16177	1702109536908438899	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/pointops_api.o	63b1472a5e01e863
+1	17817	1702109538560432160	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda_kernel.o	95796403c27d28be
+0	17843	1702109538584432062	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/knnquery/knnquery_cuda_kernel.o	b8e81388d244fd07
+1	17909	1702109538648431801	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda_kernel.o	134f6deddad733ec
+1	18197	1702109538936430626	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda_kernel.o	8e35c74557766bc1
+0	18768	1702109539512428275	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/aggregation/aggregation_cuda_kernel.o	1385e8350f23042b
+2	19011	1702109539752427296	/home/zz/_code/IterativePFN-Unet/lib/pointops/build/temp.linux-x86_64-cpython-38/src/subtraction/subtraction_cuda_kernel.o	bf47007a68024d2
