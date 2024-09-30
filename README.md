@@ -42,7 +42,7 @@ python train_classifier.py
 We provide pre-trained models for inference. You can use them by running the following commands:
 
 ```bash
-python test_ASDN.py --niters 2  --noise 0.01 
-python test_ASDN.py --niters 2  --noise 0.02
-python test_ASDN.py --niters 3  --noise 0.03
+python test_ASDN.py --niters 2  --noise_lvls 0.01 
+python test_ASDN.py --niters 2  --noise_lvls 0.02
+python test_ASDN.py --niters 3  --noise_lvls 0.03
 ```
