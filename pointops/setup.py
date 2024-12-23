@@ -28,7 +28,7 @@ setup(
             'src/aggregation/aggregation_cuda.cpp',
             'src/aggregation/aggregation_cuda_kernel.cu',
             ],
-        extra_compile_args={'cxx': ['-g'], 'nvcc': ['-O2', '-gencode=arch=compute_75,code=sm_75']}
+        extra_compile_args={'cxx': ['-g'], 'nvcc': ['-O2']}
         )
     ],
     cmdclass={'build_ext': BuildExtension}
