@@ -21,6 +21,7 @@ pip install tensorboard
 
 cd pointops
 python setup.py install
+cd ..
 cd Chamfer3D
 python setup.py install
 ```
