@@ -19,11 +19,15 @@ pip install point-cloud-utils
 pip install pandas
 pip install tensorboard
 
-cd pointops
-python setup.py install
-cd ..
+
 cd Chamfer3D
 python setup.py install
+cd ..
+
+cd pointops
+python setup.py install
+
+
 ```
 
 ## Training
