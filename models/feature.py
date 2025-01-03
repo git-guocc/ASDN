@@ -124,8 +124,7 @@ class FeatureExtraction(Module):
         p_dense = p_from_encoder.pop()
         o_dense = o_from_encoder.pop()
 
-        # decoder
-        for block_i, block in enumerate(self.decoder_blocks[L-lambda_layer:]):
+       for block_i, block in enumerate(self.decoder_blocks[L-lambda_layer:]):
             x_dense = x_from_encoder.pop()
             p_dense = p_from_encoder.pop()
             o_dense = o_from_encoder.pop()
@@ -140,13 +139,13 @@ class FeatureExtraction(Module):
                     x_dense_corres = x_dense[len(layer_3)*o_dense[0]:, :]
                     o_dense_corres = o_dense[:len(layer_4)]
                 else :
-                    p_dense_corres = p_dense.view(batch_size, o[0], -1)[layer_4, :, :].view(-1, p_dense.size(-1))
-                    x_dense_corres = x_dense.view(batch_size, o[0], -1)[layer_4, :, :].view(-1, x_dense.size(-1))
+                    p_dense_corres = p_dense.view(batch_size, o_dense[0], -1)[layer_4, :, :].view(-1, p_dense.size(-1))
+                    x_dense_corres = x_dense.view(batch_size, o_dense[0], -1)[layer_4, :, :].view(-1, x_dense.size(-1))
                     o_dense_corres = o_dense[:len(layer_4)]
             
             if block_i == 1 - (L-lambda_layer) and layer_2:
-                p_dense_corres = p_dense.view(batch_size, o[0], -1)[layer_3+layer_4, :, :]
-                x_dense_corres = x_dense.view(batch_size, o[0], -1)[layer_3+layer_4, :, :]
+                p_dense_corres = p_dense.view(batch_size, o_dense[0], -1)[layer_3+layer_4, :, :]
+                x_dense_corres = x_dense.view(batch_size, o_dense[0], -1)[layer_3+layer_4, :, :]
                 o_dense_corres = o_dense[:len(layer_3+layer_4)]
 
             p, x, o = block(p_dense_corres, x_dense_corres, o_dense_corres, p.view(-1,3), x, o, o_dense_corres.size(0))
