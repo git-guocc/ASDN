@@ -10,7 +10,7 @@ To set up the project environment, follow these steps:
 ```bash
 conda create -n ASDN python=3.10
 conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=11.8 -c pytorch -c nvidia
-conda install lightning=2.5.0.post0 -c conda-forge
+conda install lightning=2.4.0 -c conda-forge
 conda install iopath=0.1.10 -c conda-forge
 conda install pytorch3d=0.7.8 -c pytorch3d
 pip install pyg-lib==0.4.0+pt23cu118
