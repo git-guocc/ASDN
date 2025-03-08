@@ -13,11 +13,7 @@ conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=
 conda install lightning=2.4.0 -c conda-forge
 conda install iopath=0.1.10 -c conda-forge
 conda install pytorch3d=0.7.8 -c pytorch3d
-pip install pyg-lib==0.4.0+pt23cu118
-pip install torch-scatter==2.1.2+pt23cu118
-pip install torch-sparse==0.6.18+pt23cu118
-pip install torch-cluster==1.6.3+pt23cu118
-pip install torch-spline-conv==1.2.2+pt23cu118 -f https://data.pyg.org/whl/torch-2.3.1+cu118.html
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.3.1+cu118.html
 pip install torch-geometric==2.6.1
 pip install point-cloud-utils==0.31.0
 pip install pandas
