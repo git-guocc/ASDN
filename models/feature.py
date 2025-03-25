@@ -124,7 +124,7 @@ class FeatureExtraction(Module):
         p_dense = p_from_encoder.pop()
         o_dense = o_from_encoder.pop()
 
-       for block_i, block in enumerate(self.decoder_blocks[L-lambda_layer:]):
+        for block_i, block in enumerate(self.decoder_blocks[L-lambda_layer:]):
             x_dense = x_from_encoder.pop()
             p_dense = p_from_encoder.pop()
             o_dense = o_from_encoder.pop()
