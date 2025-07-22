@@ -33,7 +33,7 @@ def calc_cd_like_InfoV2(p1, p2):
     distances1 = - torch.log(torch.exp(-0.5 * d1)/(torch.sum(torch.exp(-0.5 * d1) + 1e-7,dim=-1).unsqueeze(-1))**1e-7)
     distances2 = - torch.log(torch.exp(-0.5 * d2)/(torch.sum(torch.exp(-0.5 * d2) + 1e-7,dim=-1).unsqueeze(-1))**1e-7)
 
-    return (torch.sum(distances1) + torch.sum(distances2)) / 2*p1.shape[0]
+    return (torch.sum(distances1) + torch.sum(distances2)) / (2*p1.shape[0])
 
 
 
