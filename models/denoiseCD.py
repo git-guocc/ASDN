@@ -24,6 +24,7 @@ class DenoiseNetCD(pl.LightningModule):
 
     def __init__(self, args):
         super().__init__()
+        self.save_hyperparameters()
         self.args = args
         self.feature_nets = FeatureExtraction()
         self.console_logger = logging.getLogger('pytorch_lightning.core')
