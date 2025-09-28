@@ -5,7 +5,7 @@ This project is developed based on the paper *"You Should Learn to Stop Denoisin
 Our data is the same as *Score-Based Point Cloud Denoising* by Shitong Luo and Wei Hu. Kudos to them for their excellent implementation and resources. You can check out their [GitHub repository](https://github.com/luost26/score-denoise). We will also make the data available as a zip file for ease of use. Please download and place it in the `./data` directory.
 
 In addition, we provide a dataset containing four other types of PUNet noise.  
-You can download it from [Google Drive](https://drive.google.com/file/d/1bHaUhDdJ5foXxQp67Y6MDuyu0gqg-vbm/view?usp=sharing).  
+You can download it from [Google Drive](https://drive.google.com/file/d/1XN9OcLWNepGWoxjYQ_6KqZNM8nzxTdib/view?usp=sharing).  
 ## Environment Setup
 To set up the project environment, follow these steps:
 
